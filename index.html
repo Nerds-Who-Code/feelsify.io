@@ -92,42 +92,42 @@
       <p>TBD</p>
       <h2 id="folder-structure">FOLDER STRUCTURE</h2>
       <pre>
-      . 
-      ├──.github/ISSUE_TEMPLATE 
-      ├── client <- frontend part 
-      │   ├── dist 
-      │   ├── public 
-      │   ├── src 
-      │   │   ├── components <- all react components 
-      │   │   ├── images <- images and assets 
-      │   │   ├── App.css 
-      │   │   ├── App.js 
-      │   │   ├── App.test.js 
-      │   │   ├── index.css 
-      │   │   ├── index.js 
-      │   │   ├── reportWebVitals.js 
-      │   │   ├── setupTests.js 
-      │   │   └── store.js <- Redux related 
-      │   ├── .gitignore 
-      │   ├── README.md 
-      │   ├── package-lock.json 
-      │   ├── package.json 
-      │   ├── postcss.config.js
-      │   └── tailwind.config.js <- config file for tailwind 
-      ├── common 
-      ├── server <- backend part of the project 
-      │   ├── APIrouter.js 
-      │   ├── README.md 
-      │   ├── index.js 
-      │   ├── mockAPI.js 
-      │   ├── mockData.js 
-      │   ├── package-lock.json 
-      │   ├── package.json 
-      │   └── start_server.sh 
-      ├── .gitignore 
-      ├── LICENSE 
-      └── README.md
-      </pre>
+. 
+├─.github/ISSUE_TEMPLATE 
+├─ client <span class="pre-folder">⬅ frontend part </span>
+│  ├─ dist 
+│  ├─ public 
+│  ├─ src 
+│  │  ├── components <span class="pre-folder">⬅ all react components</span> 
+│  │  ├── images <span class="pre-folder">⬅ images and assets</span> 
+│  │  ├── App.css 
+│  │  ├── App.js 
+│  │  ├── App.test.js 
+│  │  ├── index.css 
+│  │  ├── index.js 
+│  │  ├── reportWebVitals.js 
+│  │  ├── setupTests.js 
+│  │  └── store.js <span class="pre-folder">⬅ Redux related</span> 
+│  ├── .gitignore 
+│  ├── README.md 
+│  ├── package-lock.json 
+│  ├── package.json 
+│  ├── postcss.config.js
+│  └── tailwind.config.js <span class="pre-folder">⬅ tailwind config file </span>
+├─ common    
+├─ server <span class="pre-folder">⬅ backend part</span> 
+│  ├── APIrouter.js 
+│  ├── README.md 
+│  ├── index.js 
+│  ├── mockAPI.js 
+│  ├── mockData.js 
+│  ├── package-lock.json 
+│  ├── package.json 
+│  └── start_server.sh 
+├─ .gitignore 
+├─ LICENSE 
+└─ README.md
+            </pre>
       <h2 id="running-the-project-locally">Running the Project Locally</h2>
       <p>
         In order to run the project locally, both client and server app need to
@@ -161,10 +161,10 @@
             </p>
           </div>
           <div class="second-way">
-            <p><span>2</span>. Start the server with <span class="folder-path">./server/start_server.sh</span></p> 
+            <p><span>2</span>. Start the server with <code class="folder-path">./server/start_server.sh</code></p> 
             <p> 
             Run
-            <span class="folder-path">./server/start_server.sh</span> in the terminal. This will automatically start the
+            <code class="folder-path">./server/start_server.sh</code> in the terminal. This will automatically start the
             server on port 3001. You may first need to make the bash script executable
             with the command <code>chmod u+x start_server.sh</code>
             </p>
